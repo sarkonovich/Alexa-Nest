@@ -2,6 +2,8 @@
 
 ###Control Nest Thermostat with Alexa###
 
+This skill allows you to control your Nest thermostat with Amazon Alexa. (Thanks to ericboehs for his [Nest gem](https://github.com/ericboehs/nest_thermostat))
+
 
 Since Amazon does not give 3rd party developers a way to access your local network, we need a bit of a workaround. This skill has two components:
 

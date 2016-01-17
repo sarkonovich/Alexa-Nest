@@ -3,7 +3,6 @@ require 'json'
 require 'httparty'
 require './nest_device'
 require './alexa_objects'
-require './lights'
 
 module Sinatra
   class MyApp < Sinatra::Base

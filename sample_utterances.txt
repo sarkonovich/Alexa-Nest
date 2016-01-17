@@ -1,0 +1,16 @@
+SetTemperature set the temperature to {Temperature} degrees
+SetTemperature set the temperature to {Temperature} 
+SetTemperature set the heat to {Temperature} degrees
+SetTemperature set the heat to {Temperature} 
+SetTemperature turn down the heat to {Temperature} degrees
+SetTemperature turn down the heat to {Temperature}
+SetTemperature turn up the heat to {Temperature} 
+SetTemperature turn up the heat to {Temperature} degrees
+
+
+NoResponse no
+YesResponse yes
+
+GetTemperature what's the temperature
+GetTemperature how hot is it in here
+GetTemperature how hot is it

@@ -1,0 +1,24 @@
+# Paste the following into the 'Enter Type' box in your custom slot
+TEMP_VALUES
+
+
+
+# Paste the following into the 'Enter Values' box in your custom slot
+sixty
+sixty one
+sixty two
+sixty three
+sixty four
+sixty five
+sixty six
+sixty seven
+sixty eight
+sixty nine
+seventty
+seventy one
+seventy two
+seventy three
+seventy four
+seventy five
+home
+away

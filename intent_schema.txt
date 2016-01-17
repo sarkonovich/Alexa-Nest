@@ -1,0 +1,25 @@
+{
+  "intents":[
+    {
+      "intent": "GetTemperature",
+      "slots": [ ]
+    },
+    {
+      "intent": "YesResponse",
+      "slots": [ ]
+    },
+    {
+      "intent": "NoResponse",
+      "slots": [ ]
+    },
+    {
+      "intent": "SetTemperature",
+      "slots": [
+        {
+        "name": "Temperature",
+        "type": "TEMP_VALUES"
+        }
+      ]
+    }
+  ]
+}

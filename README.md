@@ -27,7 +27,7 @@ Then in the Amazon [developer portal](https://developer.amazon.com/edw/home.html
 
 That's it for setting up the skill in your Amazon Developer's account.
 
-On your local machine copy all unzip all the files into the same directory.
+On your local machine copy (or unzip) all the files from this repo into a directory on your local machine.
 Open up the file nest_device.rb and enter your Nest username/email and password on line 2 in the appropriate place. (Save and close the file.)
 
 #####======================================================================

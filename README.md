@@ -41,7 +41,7 @@ is on the first line and
 is next to 
 ````register Sinatra::Lights````
 
-Stop and restart you r sinatra server, and you should be all set.
+Stop and restart your sinatra server, and you should be all set.
 
 If you're not using Alexa Nest with Alexa Hue.....read on!
 #####========================================================================

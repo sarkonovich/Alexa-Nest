@@ -50,7 +50,7 @@ If you're not using Alexa Nest with Alexa Hue.....read on!
 
 The program requires ruby 2.0 or above,  sinatra, and a couple of Ruby Gems.
 
-To install ruby, I suggest using RVM. Instructions are [here.](https://rvm.io/rvm/install)
+To install ruby, if you don't already have it, I suggest using RVM. Instructions are [here.](https://rvm.io/rvm/install)
 After rvm is installed, install a recent version of ruby:
 
 ````rvm install 2.2.0 --disable-binary````

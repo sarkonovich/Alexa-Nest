@@ -17,7 +17,7 @@ For information on how to set up the Lambda function, look at the instructions [
 
 (In particular, follow the steps under "Creating a Lambda Function for an Alexa Skill")
 
-Add your code as Node.js. Just copy and paste lambda_passthrough.js in the code editor.
+Add your code as Node.js. Just copy and paste lambda_passthrough.js from this repo in the code editor.
 
 Then in the Amazon [developer portal](https://developer.amazon.com/edw/home.html#/skills), you'll need to create a new skill.
 
@@ -29,11 +29,8 @@ Then in the Amazon [developer portal](https://developer.amazon.com/edw/home.html
 
 That's it for setting up the skill in your Amazon Developer's account.
 
-On your local machine copy (or unzip) all the files from this repo into a directory on your local machine.
-Open up the file nest_device.rb and enter your Nest username/email and password on line 2 in the appropriate place. (Save and close the file.)
-
 #####======================================================================
-#####Note: If you are using this in conjunction with Alexa Hue, at this point you just need to a) copy nest.rb and nest_device.rb into the same directory as your Alexa Hue files (don't replace the Alexa Hue app.rb with the one included with Alexa Nest); b) Edit the Alexa Hue app.rb file so that:
+#####Note: If you are using Alexa Nest in conjunction with Alexa Hue, at this point you just need to a) copy nest.rb and nest_device.rb into the same directory as your Alexa Hue files (DON'T replace the Alexa Hue app.rb with the one included with Alexa Nest); b) Edit the Alexa Hue app.rb file so that:
 ````require './nest_device'````
 
 is on the first line and
@@ -48,6 +45,8 @@ Stop and restart your sinatra server, and you should be all set.
 If you're not using Alexa Nest with Alexa Hue.....read on!
 #####========================================================================
 
+On your local machine copy (or unzip) all the files from this repo into a directory on your local machine.
+Open up the file nest_device.rb and enter your Nest username/email and password on line 2 in the appropriate place. (Save and close the file.)
 
 
 The program requires ruby 2.0 or above,  sinatra, and a couple of Ruby Gems.

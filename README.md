@@ -40,7 +40,9 @@ is on the first line and
 is next to 
 ````register Sinatra::Lights````
 
-Stop and restart your sinatra server, and you should be all set.
+Open up the file nest_device.rb and enter your Nest username/email and password on line 2 in the appropriate place. Make sure they are in quotations, e.g., "password" and "email". Save and close the file.
+
+Stop (Ctrl-C) and restart (````ruby app.rb````) your sinatra server, and you should be all set.
 
 If you're not using Alexa Nest with Alexa Hue.....read on!
 #####========================================================================

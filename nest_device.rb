@@ -10,7 +10,7 @@ module Sinatra
 
         if @echo_request.launch_request? || @echo_request.intent_name == 'GetTemperature'
           r.end_session = false
-          r.spoken_response = "The inside temperature is #{NEST.current_temp.to_i} degrees, and your thermostat is set to #{NEST.temperature.to_i}." +
+          r.spoken_response = "The inside temperature is #{NEST.current_temp.round(1)} degrees, and your thermostat is set to #{NEST.temperature.round(1)}." +
                               " Would you like to make an adjustment."
         elsif @echo_request.intent_name == 'SetTemperature'
           target = @echo_request.slots.temperature
